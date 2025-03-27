@@ -1,12 +1,14 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
-import Recorrido from './components/Recorrido.vue';
+
+import RecorridoEjercio from './components/RecorridoEjercio.vue';
 </script>
 
 <template>
 
   <!--<HelloWorld msg="Vite + Vue" />-->
-  <Recorrido/>
+  
+  <RecorridoEjercio/>
 </template>
 
 <style scoped>
