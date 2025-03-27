@@ -12,7 +12,16 @@ const apellidos = ref("Garcia Santiago")
 </script>
 
 <template>
-  <h2>{{ bienvenida }}</h2>
+   <div class="container">
+    <h2 class="text-center">{{ bienvenida }}</h2>
+    <div class="row">
+      <div class="cold-md-6">
+        <h6>{{ nombre }}</h6>
+        <h6>{{ apellidos }}</h6>
+
+      </div>
+    </div>
+  </div>
   
 </template>
 
