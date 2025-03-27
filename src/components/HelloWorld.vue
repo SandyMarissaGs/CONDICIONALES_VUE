@@ -1,26 +1,19 @@
 <script setup>
-import { ref } from 'vue'
+import{ ref } from 'vue'
 
-const bienvenida = ref(`Bienvenidos a la seccion de condicionales`)
-const nombre = ref('Sandy Marissa')
-const apellidos = ref('Garcia Santiago')
+const bienvenida= ref("Bienvenidos a la seccion de condicionales")
+const nombre = ref("Sandy Marissa")
+const apellidos = ref("Garcia Santiago")
 
 //defineProps({
-  //msg: String,
+ // msg: String,
 //})
+
 </script>
 
 <template>
-  <div class="container">
-    <h2 class="text-center">{{ bienvenida }}</h2>
-    <div class="row">
-      <div class="cold-md-6">
-        <h6>{{ nombre }}</h6>
-        <h6>{{ apellidos }}</h6>
-
-      </div>
-    </div>
-  </div>
+  <h2>{{ bienvenida }}</h2>
+  
 </template>
 
 <style scoped></style>
